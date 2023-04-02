@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    cursor: default;
+  }
+#container {
+    display: flex;
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+    flex: auto;
+    position: relative;
+}
+
+.button {
+    width: 50%;
+    font-size: 5rem;
+}
+
+#add {
+    background-color: green;
+    border-color: green;
+    color: white;
+    text-align: right;
+    padding-right: 1%;
+}
+
+#subtract {
+    background-color: red;
+    border-color: red;
+    color: white;
+    text-align: left;
+    padding-left: 1%;
+}
+
+#total {
+    position: absolute;
+    top: 42.5%;
+    left: 32.5%;
+    font-size: 8rem;
+    text-align: center;
+    /* background-color: aliceblue; */
+    width: 35%;
+}
+
+#save {
+    position: absolute;
+    top: 80%;
+    left: 19.6%;
+    font-size: 4rem;
+    background-color: black;
+    border-color: transparent;
+    color: white;
+}
+
+#show {
+    position: absolute;
+    top: 80%;
+    left: 50.1%;
+    font-size: 4rem;
+    background-color: white;
+    border-color: transparent;
+}
+
+#clear {
+    position: absolute;
+    top: 89.5%;
+    left: 34.6%;
+    font-size: 3.86rem;
+    background-color: white;
+    border-color: transparent;
+    color: black;
+}
